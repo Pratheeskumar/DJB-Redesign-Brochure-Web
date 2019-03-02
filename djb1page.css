@@ -1,25 +1,20 @@
 *{margin: 0; padding: 0;
 font-family: trasandina, sans-serif}
+
+/*header and nav*/
+
+
 header{width: 100%; height: 100vh; background-color: #009276;}
-
-.div1 {width: 100%; height: 100vh; background-color: #EC6A37;}
-.div2{width: 100%; height: 100vh; background-color: #1A5091;}
-.div3{width: 100%; height: 100vh; background-color: #ECB2B3;}
-.div4{width: 100%; height: 100vh; background-color: #B93A32;}
-.div5{width: 100%; height: 100vh; background-color: #EEC843;}
-.div6{width: 100%; height: 100vh; background-color: #91672F;}
-.div7 {width: 100%; height: 100vh; background-color: #452B6F;}
-
-.overskrift{width: 50%; height: 70vh; display: inline-block; float: left; color: white; background-color: ; font-weight: bold; font-size: 45px;}
+.overskrift{width: 50%; height: 70vh; display: inline-block; float: left; color: white; background-color:; font-weight: bold; font-size: 45px;}
 
 .overskrift h1 {padding-left: 2%;}
 .overskrift img {padding-left: 2%;}
 
 a info {text-decoration: none; list-style: none;}
 
-.adresse {width: 50%; height: 30vh; display: inline-block; float: left; background-color: y; }
+.adresse {width: 50%; height: 30vh; display: inline-block; float: left; background-color: greenyellow;}
 
-.adresse h1 {color: white; font-weight: bold; font-size:20px; padding-top: 19%; padding-left: 2%;}
+.adresse h1 {color: white; font-weight: bold; font-size:20px; padding-left: 2%; padding-top: 19%;}
 
 nav{width: 50%; height: 40vh; display: inline-block; float: right; background-color: PINK; 
 }
@@ -29,4 +24,35 @@ nav ul {text-decoration: none; list-style: none;
     
 .boks {
     width: 50%; height: 60vh; display: inline-block; float: right; background-color: orange;}
-}
+
+
+
+/*main section*/
+.div1 {width: 100%; height: 100vh;background-image: url("billeder/ude.png"); background-size: cover; color: white; padding-left: 1%;font-weight: bold; font-size: 60px; padding-top: 1%;}
+
+.div2{width: 100%; height: 100vh; background-color: #1A5091; background-image: url(billeder/Nostalgi_og_minder%20copy.jpg);background-size: cover;color: white;padding-left: 1%;font-weight: bold; font-size: 60px;padding-top: 1%;}
+
+.div3{width: 100%; height: 100vh; background-color: #ECB2B3;background-size: cover; background-image: url(billeder/Web_mini_legebord%20copy.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 60px;padding-top: 1%;}
+
+.div4{width: 100%; height: 100vh; background-color: #B93A32;background-size: cover; background-image: url(billeder/dreamcoupe.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 60px;padding-top: 1%;}
+
+.div5{width: 100%; height: 100vh; background-color: #EEC843;background-size: cover; background-image: url(billeder/ude2%20copy.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 60px;padding-top: 1%;}
+
+.div6{width: 100%; height: 100vh; background-color: #91672F;background-size: cover; background-image: url(billeder/Odin_tog_copy.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 60px;padding-top: 1%;}
+
+
+
+
+
+
+
+.adresse2 h1{color: white; font-weight: bold; font-size:20px; padding-left: 1%; padding-top: 35%; background-color: }
+
+/*footer*/
+
+footer{width: 100%; height: 80vh; background-color: #452B6F; color: white;}
+.pris {padding-left: 1%; font-size: 40px; float: left; width: 50%;display: block;}
+.find {text-align: right; padding-right: 0.5%; width: 40%; float: right;display: block; vertical-align: top;}
+.googly {float: right; display: block;}
+.bla {padding-top: 1%; padding-left: 1%;}
+.adresse3 h1 {padding-left: 1%; float: left; display: block;}
