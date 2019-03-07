@@ -4,7 +4,7 @@ font-family: trasandina, sans-serif}
 
 /*header and nav*/
 header{width: 100%; height: 100vh; background-color: #009276;}
-.overskrift{width: 70%; height: 50vh; display: inline-block; float: left; color: white; background-color:; font-weight: bold; font-size: 2.7vw; padding-top: 10vh}
+.overskrift{width: 70%; height: 50vh; display: inline-block; float: left; color: white;font-weight: bold; font-size: 2.7vw; padding-top: 10vh}
 
 .overskrift h1 {padding-left: 20%;}
 .overskrift p  {padding-left: 20%;}
@@ -16,7 +16,7 @@ nav a {text-decoration: none; color: white; font-family: trasandina, sans-serif;
 
 .adresse h1 {color: white; font-weight: bold; font-size:20px; padding-left: 2%; padding-top: 19%; font-size: 2.7vw;}
 
-nav{width: 30%; height: 100vh;  float: right; background-color:; display: flex; flex-direction: column; }
+nav{width: 30%; height: 100vh;  float: right; display: flex; flex-direction: column; }
 
 nav ul {text-decoration: none; list-style: none; font-family: trasandina, sans-serif;color: white; 
 }
@@ -41,7 +41,7 @@ nav li{border: 2px solid white; height:13.5vh;font-size: 2.7vw}
 
 .div3{width: 100%; height: 100vh; background-color: #ECB2B3;background-size: cover; background-image: url(billeder/alle_dage.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 2.7vw;padding-top: 1%;}
 
-.div4{width: 100%; height: 100vh; background-color: #B93A32;background-size: cover; background-image: url(billeder/dr%C3%B8mmenes_Kup%C3%A9_01copy.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 2.7vw;padding-top: 1%;}
+.div4{width: 100%; height: 100vh; background-color: #B93A32;background-size: cover; background-image: url(billeder/dreamcoupe01copy.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 2.7vw;padding-top: 1%;}
 
 .div5{width: 100%; height: 100vh; background-color: #EEC843;background-size: cover; background-image: url(billeder/ude3.jpg);color: white;padding-left: 1%;font-weight: bold; font-size: 2.7vw;padding-top: 1%;}
 
@@ -52,7 +52,7 @@ nav li{border: 2px solid white; height:13.5vh;font-size: 2.7vw}
 
 
 
-.adresse2 h1{color: white; font-weight: bold; font-size: 2.7vw; padding-left: 1%; padding-top: 35%; background-color: }
+.adresse2 h1{color: white; font-weight: bold; font-size: 2.7vw; padding-left: 1%; padding-top: 35%;}
 
 .div1 img{width: 5%; height: 5%; padding-top: 5vh;}
 .div2 img{width: 5%; height: 5%; padding-top: 5vh;}
@@ -78,7 +78,4 @@ width: 500px;
     height: 355px;
 }
 
-@media only screen and (max-width: 1000px){
-    width: 200px;
-    height: 155px;
-}
+
